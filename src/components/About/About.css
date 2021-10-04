@@ -1,0 +1,7 @@
+.text{
+    color:black !important;
+}
+.text:hover{
+
+    color: rgb(91, 88, 82) !important;
+}
