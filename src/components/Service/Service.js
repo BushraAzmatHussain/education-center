@@ -20,7 +20,7 @@ const Service = () => {
             
             <div className="row gy-4 row-cols-lg-3">
                 {
-                courses.map(course=><Card course={course}></Card>)
+                courses.map((course,index)=><Card key={index} course={course}></Card>)
                 }
                 </div>
             </div>

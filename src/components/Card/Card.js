@@ -16,7 +16,7 @@ const Card = (props) => {
                         <div className="card-body bg-dark">
                             <h3 className="fs-4 colors">{Course}</h3>
                             <h5 className="colors">Amount: {Amount}</h5>
-                            <NavLink to="" class="btn btn-light text-dark">Continue Course
+                            <NavLink to="" className="btn btn-light text-dark">Continue Course
                             </NavLink>
                             </div>
                             </div>

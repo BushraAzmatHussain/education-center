@@ -38,7 +38,7 @@ const Home = () => {
                   </div>
                   <div className="row gy-4 row-cols-lg-3">
                     {
-                    fourCourse.map(course=><Card course={course}></Card>)
+                    fourCourse.map((course,index)=><Card key={index} course={course}></Card>)
                     }
                     </div>  
       </section>
